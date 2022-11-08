@@ -1,0 +1,40 @@
+h1 {
+    color:cadetblue;
+    
+}
+
+/* Estoy probando colores y fuentes */
+p {
+    color:blueviolet;
+    font-size: 16pt ;
+}
+
+/* Selectores de ID */
+#noticia1 {
+    color:cornflowerblue;
+    font-size: 13pt ;
+}
+
+#noticia2 {
+    color:coral;
+    font-size: 13pt ;
+}
+
+/*Selector de clase*/
+.encabezado2 {
+    color:black;
+    font-size: 24pt ;
+    text-transform: uppercase;
+}
+
+/*Para crear un selector universal, que aplique estilo a todos los elementos*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.autor, .fecha, .ubi {
+    text-decoration: underline;
+    font-style: oblique;
+    font-size: 10pt;
+}

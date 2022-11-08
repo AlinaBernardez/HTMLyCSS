@@ -1,0 +1,60 @@
+
+/*EStilos de color*/
+.colores {
+    color:darkslateblue
+}
+
+.color-hexadecimal {
+    color: #57cc99
+}
+
+.color-rgb {
+    color: rgb(0, 10, 100)
+}
+
+.color-rgba {
+    color: rgba(100, 100, 100, 0,2)
+}
+
+/*Fondos de color y de imagen*/
+.fondo-color {
+    background-color: coral;
+    color:antiquewhite
+    
+}
+.fondo-imagen {
+    color: antiquewhite;
+    background-image: url(https://img.freepik.com/premium-vector/hand-painted-background-violet-orange-colours_23-2148427578.jpg?w=2000);
+    background-position: top right;
+}
+.fondo-pagina {
+    background-image: url(https://img.freepik.com/premium-photo/old-paper-texture-background_118047-1365.jpg?w=2000);
+}
+
+* {
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ancho {
+    background-color: #57cc99;
+    width: 150px;
+}
+.alto {
+    background-color: #d0fae8;
+    height: 250px;
+}
+
+.tarjeta {
+    border-color: rgb(41, 43, 48);
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px 20px;
+    width: 250px;
+    height: 250px;
+    margin: 20px 650px;
+}
+
+.titulo-t {
+    padding-left: 80px;
+}
