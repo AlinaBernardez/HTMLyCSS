@@ -1,0 +1,23 @@
+.contenedor-boton {
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boton {
+    border: none;
+    padding: 10px;
+    background-color:coral
+}
+
+button::before:hover {
+    content: "¡Pasa por encima!";
+}
+
+.boton:hover {
+    color: white;
+    background-color:cornflowerblue;
+}
+
+button::after:hover {
+    content: "¡Hecho!";
+}
