@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    margin:auto;
+    margin-top:30px;
+}
+
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    transition: all 1s ease-out;
+    border-radius: 20px;
+}
+
+.padre:hover .hijo{
+    transform: rotate(-35deg);
+}
+
+.hijo span {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45pt;
+    color:white;
+    transition: none;
+}

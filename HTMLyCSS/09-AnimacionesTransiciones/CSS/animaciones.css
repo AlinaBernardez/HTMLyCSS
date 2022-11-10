@@ -1,0 +1,51 @@
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    color: white;
+}
+
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    /*transition:all 1s ease-out;*/
+    animation: traslado 3s ease-in-out forwards infinite alternate;
+}
+
+.padre:hover .hijo{
+    /*transform: translateX(50%) translateY(50%);*/
+    animation-play-state: paused;
+}
+
+@keyframes traslado {
+    0% {
+        background-color: bisque;
+        transform: translate(0%);
+    }
+    25% {
+        background-color: rgb(255, 148, 109);
+        transform: translateX(100%) translateY(0%);
+    }
+    50% {
+        background-color: rgb(250, 105, 52);
+        transform: translateX(100%) translateY(100%);
+    }
+    75% {
+        background-color: rgb(255, 69, 1);
+        transform: translateX(0%) translateY(100%);
+    }
+    100% {
+        background-color: bisque;
+        transform: translate(0%);
+    }
+}
