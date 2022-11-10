@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #161717;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 450px;
+    margin:auto;
+}
+
+.container h3 {
+    align-self: flex-start;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.buttons {
+    display:flex;
+    flex-direction: row;
+    align-self: flex-start;
+    gap: 20px;
+}
+
+.google-btn {
+    background-color: #1556B3;
+    border: none;
+    border-radius: 4px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.google-btn:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.google-btn picture {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img {
+    width: 75%;
+}
+
+.google-btn span {
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.twitter-btn {
+    width: 40px;
+    color:#bbb;
+    background-color: #eee;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google-btn picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter-btn picture img {
+    width: 80%;
+}
+
+.twitter-btn:hover {
+    background-color: #ddd;
+}
+
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separator span {
+    color: #8b8b8b;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.inputs {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 800;
+}
+
+label input {
+    width: 80%;
+    height: 18px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 7px;
+    background-color:#212121;
+    outline: none;
+    font-size: 14pt;
+}
+
+label input[type="email"] {
+    width: 90%;
+}
+label input[type="password"] {
+    width: 90%;
+}
+
+
+input::placeholder {
+    font-size: small;
+}
+
+label input:hover {
+    background-color: #454045;
+    border: 1px solid #89898a;
+    box-shadow: 0 0 4px rgba(212, 212, 212, 0.63)
+}
+
+label input:focus {
+    background-color: white;
+    border: 1px solid #f3f3f4;
+    box-shadow: 0 0 4px rgba(244, 67, 250, 0.432)
+}
+
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 10px;
+}
+
+.checkbox-label span {
+    font-weight: 400;
+}
+
+.crear-btn {
+    background-color: #EA4C89;
+    color:white;
+    font-weight: 700;
+    font-size: 11pt;
+    border: none;
+    border-radius: 7px;
+    height:40px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+.crear-btn:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    border: 1px solid #89898a;
+    box-shadow: 0 0 4px rgba(212, 212, 212, 0.63)
+}
