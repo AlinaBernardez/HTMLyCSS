@@ -1,0 +1,34 @@
+body {
+    padding: 20px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.escenario {
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.escenario-1 {
+    width: 100%;
+}
+
+.escenario-2 {
+    width: 50%;
+}
+
+.px {
+    background-color: cadetblue;
+    width: 200px;
+}
+
+.porcentaje {
+    background-color: coral;
+    width: 50%;
+}
+
+.view {
+    background-color: chocolate;
+    width: 50vw
+}

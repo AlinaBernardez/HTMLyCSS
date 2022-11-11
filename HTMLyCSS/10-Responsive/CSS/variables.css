@@ -1,0 +1,23 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --color-secundario: rgb(143, 189, 228);
+    --ancho-principal: 250px;
+}
+
+.titulo {
+    color: var(--color-secundario);
+}
+
+.footer {
+    color: var(--color-secundario);
+    font-size: 0.8rem;
+}
+
+.container {
+    background-color: bisque;
+    padding: 1.5rem;
+    width: var(--ancho-principal);
+}

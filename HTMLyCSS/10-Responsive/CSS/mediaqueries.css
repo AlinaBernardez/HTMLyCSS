@@ -1,0 +1,21 @@
+h1 {
+    color: blueviolet; /*Primero reconocerá este estilo*/
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+/*Después irá reconociendo estos estilos, según cambie el tamaño de la pantalla*/
+@media (min-width: 576px) {
+    h1 {
+        color: cornflowerblue;
+    }
+}
+
+@media (min-width: 995px) {
+    h1 {
+        color: palevioletred;
+    }
+}

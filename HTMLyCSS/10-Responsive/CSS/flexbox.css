@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    background-color: cornflowerblue;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    min-height: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*Eje principal (row)*/
+    justify-content: space-around;
+    /*Eje secundario (center)*/
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: coral;
+    padding: 0.25rem;
+    width: 10rem;
+    text-align: center;
+    text-transform: uppercase;
+}
